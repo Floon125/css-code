@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pixelify+Sans:wght@400..700&display=swap');
+.bree-serif-regular {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.user_profile{
+    visibility: hidden;
+}
+
+.game_cell {
+    padding: 60px;
+    border-radius: var(--itchio_border_radius);
+    border-width: 0px;
+    height: 360px;
+    width: 200px;
+    background-image: url("https://img.itch.zone/aW1nLzI0MTg2Njk0LnBuZw==/original/ZMlGt9.png")};
+.web_flag {
+    background-color: black !important;
+    color: white !important;
+}
+
+.game_cell:not(:hover) {
+    transform: translateY(3px);
+    animation-name: CardFlipAnimation2;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+
+.game_thumb {
+    background-size: cover;
+    border-radius: 20px;
+    border-style: dashed;
+    border-width: 5px;
+animation-name: Hide;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+
+.game_text {
+	font-family: 'Bree Serif', serif;
+    background-size: cover;
+    border-style: solid;
+    animation-name: Hide;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+.game_title {
+	font-family: 'Bree Serif', serif;
+    animation-name: Hide;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+.game_genre {
+
+    animation-name: Hide;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+.game_platform {
+	font-family: 'Bree Serif', serif;
+    animation-name: Hide;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+.game_link {
+	font-family: 'Bree Serif', serif;
+    animation-name: Hide;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+
+}
+}
+
+@keyframes CardFlipAnimation2 {
+0% {
+	transform: translateY(-5x) rotate(10deg);
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTg2LnBuZw==/original/EB%2Fyvu.png);
+}
+7% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTczLnBuZw==/original/pMvttH.png);
+}
+14% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTY0LnBuZw==/original/h009Qz.png);
+}
+21% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTYyLnBuZw==/original/BYQzBY.png);
+}
+28% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTU3LnBuZw==/original/iRdTd0.png);
+}
+35% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTQ5LnBuZw==/original/24FA9l.png);
+}
+42% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTMzLnBuZw==/original/%2FRJhVg.png);
+}
+49% {
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NTA1LnBuZw==/original/v%2FIPE6.png);
+}
+56% {
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NTM5LnBuZw==/original/1lohEs.png);
+}
+63% {
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NTU2LnBuZw==/original/SkJjJE.png);
+}
+70% {
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NTc4LnBuZw==/original/E8lvS1.png);
+}
+77% {
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NTk3LnBuZw==/original/LAinBV.png);
+}
+84% {
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NjA4LnBuZw==/original/PbUwfP.png);
+}
+99% {
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NjE1LnBuZw==/original/S6NxyM.png);
+}
+100% {
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NjMwLnBuZw==/original/6Y7z%2B1.png);
+transform: translateY(3px) rotate(0deg);
+}
+
+}
+@keyframes CardFlipAnimation {
+0% {
+	transform: translateY(3px) rotate(0deg);
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NjMwLnBuZw==/original/6Y7z%2B1.png);
+}
+7% {
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NjE1LnBuZw==/original/S6NxyM.png);
+}
+14% {
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NjA4LnBuZw==/original/PbUwfP.png);
+}
+21% {
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NTk3LnBuZw==/original/LAinBV.png);
+}
+28% {
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NTc4LnBuZw==/original/E8lvS1.png);
+}
+35% {
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NTU2LnBuZw==/original/SkJjJE.png);
+}
+42% {
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NTM5LnBuZw==/original/1lohEs.png);
+}
+49% {
+background-image: url(https://img.itch.zone/aW1nLzI0OTg5NTA1LnBuZw==/original/v%2FIPE6.png);
+}
+56% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTMzLnBuZw==/original/%2FRJhVg.png);
+}
+63% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTQ5LnBuZw==/original/24FA9l.png);
+}
+70% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTU3LnBuZw==/original/iRdTd0.png);
+}
+77% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTYyLnBuZw==/original/BYQzBY.png);
+}
+84% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTY0LnBuZw==/original/h009Qz.png);
+}
+91% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTczLnBuZw==/original/pMvttH.png);
+}
+100% {
+background-image: url(https://img.itch.zone/aW1nLzI0MTg3OTg2LnBuZw==/original/EB%2Fyvu.png);
+transform: translateY(-5px) rotate(10deg);
+}
+}
+
+.game_cell:hover {
+   transform: translateY(3px);
+    animation-name: CardFlipAnimation;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+.game_thumb {
+    background-size: cover;
+    border-style: dashed;
+    border-radius: 20px;
+	border-width: 5px;
+	animation-name: Show;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+.game_text {
+	font-family: 'Bree Serif', serif;
+    display: none;
+    background-size: cover;
+    border-style: solid;
+    animation-name: Show;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+.game_title {
+	font-family: 'Bree Serif', serif;
+    animation-name: Show;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+.game_genre {
+	font-family: 'Bree Serif', serif;
+    animation-name: Show;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+.game_platform {
+	font-family: 'Bree Serif', serif;
+    animation-name: Show;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+.game_link {
+	font-family: 'Bree Serif', serif;
+    animation-name: Show;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+
+}
+    
+}
+.game_cell:hover .game_thumb {
+    filter: grayscale(0%); /* Remove grayscale on hover */
+}
+.user_page_wrap .icon {
+    color: black !important;
+}
+@keyframes Show{
+0%{
+    visibility: hidden;
+}
+1%{
+    visibility: hidden;
+}
+90%{
+    visibility: hidden;
+}
+100%{
+    visibility: visible;
+}
+
+}
+@keyframes Hide{
+0%{
+    visibility: visible;
+}
+1%{
+    visibility: hidden;
+}
+90%{
+    visibility: hidden;
+}
+100%{
+    visibility: hidden;
+}
+}
